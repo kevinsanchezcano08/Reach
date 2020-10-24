@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+header{
+    max-width: 90%;
+    min-height: 30px;
+    margin: 0 auto 0px;
+    padding: 0;
+    margin-top: 2%;
+    margin-left: 64%;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+}
+header li, a{
+    text-align: center;
+    text-decoration: none;
+    color:#93bfce;
+    display: inline-block;
+    padding: 6px 6px;
+    font-family: 'Quicksand', sans-serif;
+}
+.subHover::after{
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#93bfce;
+    transition: width .3s; 
+}
+.subHover:hover::after{
+    width: 100%;
+    transition: width .3s; 
+}
+.p1 h1{
+    color: #93bfce;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 30px;
+}
+#this{
+    margin-top: 22%;
+}
+#this1{
+    margin-top: 25%;
+}
+#this2{
+    margin-top: 35%;
+}
+#h1Box{
+    position: absolute;
+    color: white;
+    margin-top: -33%;
+    margin-left: 42%;
+    font-size: 40px;
+}
+#thisone{
+    position: absolute;
+    color: transparent;
+    margin-top: -37%;
+}
+.p1 span{
+    color: #131d47;
+}
+.p1 h2{
+    margin-top: 30%;
+    position: absolute;
+    color:white;
+    background-color:#93bfce;
+    border-radius: 15px;
+    margin-left: 5%;
+    padding: 8px;
+}
+#cont{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: 9%;
+}
+#logo{
+    position: absolute;
+    height: 160px;
+    width: 200px;
+    margin-left: 5%;
+    border-radius: 15px;
+    margin-top: -2%;
+}
