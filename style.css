@@ -14,7 +14,7 @@ header{
     margin: 0 auto 0px;
     padding: 0;
     margin-top: 2%;
-    margin-left: 50%;
+    margin-left: 60%;
     position: absolute;
     text-align: center;
     font-size: 16px;
@@ -51,6 +51,18 @@ header li, a{
 #this1{
     margin-top: 25%;
 }
+#h1Box{
+    position: absolute;
+    color: white;
+    margin-top: -33%;
+    margin-left: 43%;
+    font-size: 40px;
+}
+#thisone{
+    position: absolute;
+    color: transparent;
+    margin-top: -37%;
+}
 .p1 span{
     color: #131d47;
 }
@@ -65,9 +77,9 @@ header li, a{
 }
 #dev{
     position: absolute;
-    width: 800px;
+    width: 740px;
     height: 500px;
-    margin-left: 41%;
+    margin-left: 43%;
     margin-top: 7%;
 }
 #logo{
@@ -132,7 +144,7 @@ margin-bottom: 3%;
 }
 #funcion h3{
     color: #131d47;
-    margin-left: 64%;
+    margin-left: 60%;
     font-size: 25px;
     margin-top: 90%;
     position: absolute;
@@ -142,21 +154,21 @@ margin-bottom: 3%;
     margin-top: 94.5%;
     color: #131d47;
     font-size: 50px;
-    margin-left: 70%;
+    margin-left: 67%;
 }
 #funcion p{
     position: absolute;
     color: #131d47;
     margin-top: 100%;
-    margin-left: 64%;
-    margin-right: 18%;
+    margin-left: 60%;
+    margin-right: 22%;
     margin-bottom: 3%;
     text-align: justify;
 }
 
 #giro h3{
     color: #131d47;
-    margin-left: 23.5%;
+    margin-left: 20%;
     font-size: 25px;
     margin-top: 90%;
     position: absolute;
@@ -166,14 +178,14 @@ margin-bottom: 3%;
     margin-top: 94.5%;
     color: #131d47;
     font-size: 50px;
-    margin-left: 28%;
+    margin-left: 24%;
 }
 #giro p{
     position: absolute;
     color:#131d47;
     margin-top: 100%;
-    margin-left: 22%;
-    margin-right: 60%;
+    margin-left: 18%;
+    margin-right: 64%;
     text-align: justify;
 }
 footer{
@@ -185,4 +197,25 @@ footer{
     padding-right: 70px;
     padding-top: 15px;
     position: absolute;
+}
+footer h1{
+    color: #93bfce;
+}
+.redes{
+    margin-left: 25%;
+}
+footer a {
+    color: white;
+    background-color: #93bfce;
+    font-size: 20px;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+footer a:hover{
+    color: #93bfce;
+    background-color: white;
+    transition: 0.5s;
 }
