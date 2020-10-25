@@ -102,9 +102,6 @@ header li, a{
     margin-top: 55%;
     margin-bottom: 3%;
 }
-.inf span{
-    color: #93bfce;
-}
 .bodycards{
     box-sizing: border-box;
     display: flex;
