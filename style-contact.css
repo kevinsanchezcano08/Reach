@@ -14,7 +14,7 @@ header{
     margin: 0 auto 0px;
     padding: 0;
     margin-top: 2%;
-    margin-left: 64%;
+    margin-left: 66%;
     position: absolute;
     text-align: center;
     font-size: 16px;
@@ -92,4 +92,135 @@ header li, a{
     margin-left: 5%;
     border-radius: 15px;
     margin-top: -2%;
+}
+.Info h1{
+    color: #131d47;
+    position: absolute;
+    margin-left: 5%;
+}
+.Info p{
+    margin-left: 5%;
+    position: absolute;
+}
+#dir h1{
+    margin-top: 50%;
+    border-left:2px #131d47 solid;
+    padding: 5px;
+    margin-bottom: 3%;
+}
+#dir p{
+    margin-top: 55%;
+    margin-right: 60%;
+   
+}
+#tel h1{
+    margin-top: 60%;
+    border-left:2px #131d47 solid;
+    padding: 5px;
+    margin-bottom: 3%;
+}
+#tel #tel{
+    margin-top: 65%;
+    margin-left: 7%;
+   
+}
+.fa-phone-alt{
+    color: #131d47;
+    position: absolute;
+    margin-top: 65.2%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+#tel #wha{
+    margin-top: 67.2%;
+    margin-left: 7%;
+}
+.fa-whatsapp{
+    color: #131d47;
+    position: absolute;
+    margin-top: 67.2%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+#cor h1{
+    margin-top: 72%;
+    border-left:2px #131d47 solid;
+    padding: 5px;
+    margin-bottom: 3%;
+}
+#cor p{
+    margin-top: 77%;
+    margin-left: 7.5%;
+}
+.fa-envelope{
+    color: #131d47;
+    position: absolute;
+    margin-top: 77%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+#red h1{
+    margin-top: 82%;
+    border-left:2px #131d47 solid;
+    padding: 5px;
+    margin-bottom: 3%;
+}
+.fab{
+    color: #131d47;
+}
+#face{
+    margin-top: 87%;
+    margin-left: 7%;
+}
+.fa-facebook-f{
+    position: absolute;
+    margin-top: 87%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+#insta{
+    margin-top: 90%;
+    margin-left: 7%;
+}
+.fa-instagram{
+    position: absolute;
+    margin-top: 90%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+#twt{
+    margin-top: 93%;
+    margin-left: 7%;
+}
+.fa-twitter{
+    position: absolute;
+    margin-top: 93%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+.form h1{
+    color: #131d47;
+    margin-top: 99%;
+    position: absolute;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+.form span{
+    color: white;
+    background-color: #93bfce;
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+.map{
+    margin-left: 50%;
+    margin-top: 58%;
+    position: absolute;
+}
+.form p{
+    position: absolute;
+    margin-top: 103%;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 3%;
 }
