@@ -22,7 +22,7 @@ header{
 header li, a{
     text-align: center;
     text-decoration: none;
-    color:#93bfce;
+    color:#131d47;
     display: inline-block;
     padding: 6px 6px;
     font-family: 'Quicksand', sans-serif;
@@ -32,7 +32,7 @@ header li, a{
     display: block;
     width: 0;
     height: 2px;
-    background:#93bfce;
+    background:#131d47;
     transition: width .3s; 
 }
 .subHover:hover::after{
