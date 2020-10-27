@@ -54,18 +54,7 @@ header li, a{
 #this2{
     margin-top: 35%;
 }
-#h1Box{
-    position: absolute;
-    color: white;
-    margin-top: -33%;
-    margin-left: 42%;
-    font-size: 40px;
-}
-#thisone{
-    position: absolute;
-    color: transparent;
-    margin-top: -37%;
-}
+
 .p1 span{
     color: #131d47;
 }
@@ -134,6 +123,7 @@ header li, a{
     margin: 30px 0;
     box-shadow: 0px 0px 8px #9c9d9e;
     border-radius: 20px;
+    cursor: pointer;
 }
 .container .card .imgBx{
     position: absolute;
@@ -233,3 +223,54 @@ footer a:hover{
     background-color: white;
     transition: 0.5s;
 }
+/*-------------------RESPONSIVE - LAPTOP 1024px-----------------------*/
+@media (max-width:1024px){
+    header{
+        margin-left: 67.5%;
+    }
+    .p1 h1{
+        font-size: 24px;
+    }
+    #this{
+        margin-top: 27%;
+    }
+    #this1{
+        margin-top: 30%;
+    }
+    #this2{
+        margin-top: 40%;
+    }
+    .p1 h2{
+        font-size: 20px;
+        margin-top: 35%;
+    }
+    #serv{
+        width: 540px;
+        height: 350px;
+        margin-left: 47%;
+        margin-top: 14%;
+    }
+    .inf p{
+        font-size: 18px;
+        margin-top: 57%;
+    }
+    .bodycards{
+        margin-top: 62%;
+        margin-left: 5%;
+    }
+    .container{
+       width: 850px;
+    }
+    .container .card .content{
+       
+        right: 3%;
+        left: 18%;
+        font-size: 15px;
+    }
+    footer{
+        margin-left: 18%;
+        margin-top: 110%;
+    }
+}
+/*-------------------RESPONSIVE - TABLET 768px-----------------------*/
+
