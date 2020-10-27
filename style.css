@@ -51,13 +51,6 @@ header li, a{
 #this1{
     margin-top: 25%;
 }
-#h1Box{
-    position: absolute;
-    color: white;
-    margin-top: -33%;
-    margin-left: 43%;
-    font-size: 40px;
-}
 #thisone{
     position: absolute;
     color: transparent;
@@ -97,6 +90,13 @@ header li, a{
     padding-top: 37%;
 margin-bottom: 3%;
     background-color: #131d47;
+}
+#h1Box{
+    position: absolute;
+    color: white;
+    margin-top: -33%;
+    margin-left: 43%;
+    font-size: 40px;
 }
 #mision h3{
     color: white;
@@ -142,6 +142,28 @@ margin-bottom: 3%;
     margin-right: 18%;
     text-align: justify;
 }
+#giro h3{
+    color: #131d47;
+    margin-left: 20%;
+    font-size: 25px;
+    margin-top: 90%;
+    position: absolute;
+}
+.lnr-undo{
+    position: absolute;
+    margin-top: 94.5%;
+    color: #131d47;
+    font-size: 50px;
+    margin-left: 24%;
+}
+#giro p{
+    position: absolute;
+    color:#131d47;
+    margin-top: 100%;
+    margin-left: 18%;
+    margin-right: 64%;
+    text-align: justify;
+}
 #funcion h3{
     color: #131d47;
     margin-left: 60%;
@@ -163,29 +185,6 @@ margin-bottom: 3%;
     margin-left: 60%;
     margin-right: 22%;
     margin-bottom: 3%;
-    text-align: justify;
-}
-
-#giro h3{
-    color: #131d47;
-    margin-left: 20%;
-    font-size: 25px;
-    margin-top: 90%;
-    position: absolute;
-}
-.lnr-undo{
-    position: absolute;
-    margin-top: 94.5%;
-    color: #131d47;
-    font-size: 50px;
-    margin-left: 24%;
-}
-#giro p{
-    position: absolute;
-    color:#131d47;
-    margin-top: 100%;
-    margin-left: 18%;
-    margin-right: 64%;
     text-align: justify;
 }
 footer{
@@ -219,3 +218,95 @@ footer a:hover{
     background-color: white;
     transition: 0.5s;
 }
+/*-------------------RESPONSIVE - LAPTOP 1024px-----------------------*/
+@media (max-width:1024px){
+    header{
+        margin-left: 55%;
+    }
+    .p1 h1{
+        font-size: 24px;
+    }
+    #this{
+        margin-top: 27%;
+    }
+    #this1{
+        margin-top: 30%;
+    }
+    #thisone{
+        margin-top: -35%;
+    }
+    .p1 h2{
+        font-size: 20px;
+        margin-top: 35%;
+    }
+    #dev{
+        width: 560px;
+        height: 380px;
+        margin-left: 46%;
+        margin-top: 12%;
+    }
+    .p2 #Box{
+        margin-top: 57%;
+        padding-right: 105%;
+    }
+    #h1Box{
+        margin-left: 42%;
+    }
+    #mision h3{
+        margin-top: -16%;
+        margin-left: 8%;
+    }
+    .lnr-eye{
+        margin-left: 8.8%;
+    }
+    #mision p{
+        margin-top: -22.5%;
+        margin-left: 17%;
+        margin-right: 57%;
+       
+    }
+    #vision h3{
+        margin-left: 52%;
+        margin-top: -16%;
+    }
+    .lnr-flag{
+        margin-top: -20.5%;
+        margin-left: 54%;
+    }
+    #vision p{
+        margin-left: 61%;
+        margin-right: 12%;
+    }
+    #giro h3{
+        margin-left: 21%;
+        margin-top: 99%;   
+    }
+    .lnr-undo{
+        margin-top: 103%;
+        margin-left: 27%;
+    }
+    #giro p{
+        margin-top: 109%;
+        margin-left: 19%;
+        margin-right: 58%;
+    }
+    #funcion h3{
+        margin-left: 56%;
+        margin-top: 99%;
+    }
+    .lnr-cog{
+        margin-top: 103%;
+        margin-left: 65%;
+    }
+    #funcion p{
+        margin-top: 109%;
+        margin-left: 56%;
+        margin-right: 21%;
+    }
+    footer{
+        margin-left: 18%;
+        margin-top: 135%;
+    }
+
+}
+/*-------------------RESPONSIVE - TABLET 768px-----------------------*/
