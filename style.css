@@ -308,4 +308,88 @@ footer a:hover{
     }
 
 }
+
 /*-------------------RESPONSIVE - TABLET 768px-----------------------*/
+@media (max-width:1024px){
+    header{
+        margin-left: 50%;
+    }
+    #logo{
+        margin-left: 10%;
+    }
+    #dev{
+        width: 540px;
+        height: 360px;
+        margin-left: 24%;
+        margin-top: 15%;
+    }
+    #this{
+        margin-top: 62%;
+        margin-left: 32%;
+    }
+    #this1{
+        margin-top: 65%;
+        margin-left: 32%;
+    }
+    .p1 h2{
+        margin-top: 70%;
+        margin-left: 32%;
+    }
+    #h1Box{
+        margin-left: 45%;
+    }
+    #vision h3{
+        margin-top: -13%;
+    }
+    .lnr-flag{
+        margin-top: -18.5%;
+    }
+    #vision p{
+        margin-left: 63%;
+        margin-right: 8%;
+    }
+    #mision h3{
+        margin-top: -13%;
+    }
+    .lnr-eye{
+        margin-top: -18.5%;
+    }
+    #mision p{
+        margin-left: 19%;
+        margin-right: 53%;
+    }
+    .p2 #Box{
+        margin-top: 92%;
+        padding-right: 115%;
+        padding-top: 42%;
+    }
+    #giro h3{
+        margin-left: 22%;
+        margin-top: 142%;   
+    }
+    .lnr-undo{
+        margin-top: 150%;
+        margin-left: 29%;
+    }
+    #giro p{
+        margin-top: 159%;
+        margin-right: 50%;
+    }
+    #funcion h3{
+        margin-top: 142%;
+        margin-left: 65%;
+    }
+    .lnr-cog{
+        margin-top: 150%;
+        margin-left: 78%;
+    }
+    #funcion p{
+        margin-top: 159%;
+        margin-left: 64%;
+        margin-right: 4%;
+    }
+    footer{
+        margin-top: 195%;
+        margin-left: 16%;
+    }
+}
