@@ -188,6 +188,7 @@ margin-bottom: 3%;
     text-align: justify;
 }
 footer{
+    
     margin-left: 24%;
     margin-top: 120%;
     margin-bottom: 3%;
@@ -290,25 +291,24 @@ footer a:hover{
         margin-right: 58%;
     }
     #funcion h3{
-        margin-left: 56%;
+        margin-left: 62%;
         margin-top: 99%;
     }
     .lnr-cog{
         margin-top: 103%;
-        margin-left: 65%;
+        margin-left: 71%;
     }
     #funcion p{
         margin-top: 109%;
-        margin-left: 56%;
-        margin-right: 21%;
+        margin-left: 61%;
+        margin-right: 14%;
     }
     footer{
-        margin-left: 18%;
+        margin-left: 22%;
         margin-top: 135%;
     }
 
 }
-
 /*-------------------RESPONSIVE - TABLET 768px-----------------------*/
 @media (max-width:768px){
     header{
