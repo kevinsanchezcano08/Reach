@@ -136,7 +136,7 @@ header li, a{
     margin-top: 67.2%;
     margin-left: 7%;
 }
-.fa-whatsapp{
+#W{
     color: #131d47;
     position: absolute;
     margin-top: 67.2%;
@@ -183,7 +183,7 @@ header li, a{
     margin-top: 90%;
     margin-left: 7%;
 }
-.fa-instagram{
+#I{
     position: absolute;
     margin-top: 90%;
     font-size: 25px;
@@ -193,7 +193,7 @@ header li, a{
     margin-top: 93%;
     margin-left: 7%;
 }
-.fa-twitter{
+#T{
     position: absolute;
     margin-top: 93%;
     font-size: 25px;
@@ -228,6 +228,89 @@ header li, a{
     margin-bottom: 3%;
     text-align: justify;
 }
+form input, textarea {
+  border: none;
+  border-bottom: solid #93bfce 1px;
+  margin-left: 28%;
+  padding: 10px;
+  outline:none;
+    
+}
+form{
+    margin-left: -1%;
+}
+#name{
+    position: absolute;
+    margin-top: 110%;
+    width: 295px;
+}
+#cel{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 55%;
+    width: 295px;
+}
+#email{
+    position: absolute;
+    margin-top: 115%;
+    width: 295px;
+}
+#asunto{
+    position: absolute;
+    margin-top: 115%;
+    margin-left: 55%;
+    width: 295px;
+}
+#msg{
+    position: absolute;
+    margin-top: 120%;
+    margin-bottom: 5%;
+    width: 660px;
+    height: 130px;
+
+}
+#btn{
+    position: absolute;
+    background-color: #93bfce;
+    color: white;
+    margin-top: 134%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer{
+  
+    margin-left: 28%;
+    margin-top: 143%;
+    margin-bottom: 3%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 15px;
+    position: absolute;
+}
+footer h1{
+    color: #93bfce;
+}
+.redes{
+    margin-left: 25%;
+}
+footer a {
+    color: white;
+    background-color: #93bfce;
+    font-size: 20px;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+footer a:hover{
+    color: #93bfce;
+    background-color: white;
+    transition: 0.5s;
+}
+
 /*-------------------RESPONSIVE - LAPTOP 1024px-----------------------*/
 @media (max-width:1024px){
     header{
@@ -277,7 +360,7 @@ header li, a{
         margin-top: 79.2%;
         margin-left: 8%;
     }
-    .fa-whatsapp{
+    #W{
         margin-top: 79.2%;
     }
     #cor h1{
@@ -305,14 +388,14 @@ header li, a{
         margin-top: 107%;
         margin-left: 8%;
     }
-    .fa-instagram{
+    #I{
         margin-top: 107%;
     }
     #twt{
         margin-top: 111%;
         margin-left: 8%;
     }
-    .fa-twitter{
+    #T{
         margin-top: 111%;
     }
     .map{
@@ -326,6 +409,33 @@ header li, a{
     }
     .form p{
         margin-top: 128%;
+    }
+    #name{
+        margin-top: 140%;
+        width: 225px;
+    }
+    #cel{
+        margin-top: 140%;
+        width: 225px;
+    }
+    #email{
+        margin-top: 150%;
+        width: 225px;
+    }
+    #asunto{
+        margin-top: 150%;
+        width: 225px;
+    }
+    #msg{
+        margin-top: 160%;
+        width: 520px;
+    }
+   #btn{
+       margin-top: 180%;
+   }
+    footer{
+        margin-top: 190%;
+        margin-left: 22%;
     }
 }
 /*-------------------RESPONSIVE - TABLET 768px-----------------------*/
