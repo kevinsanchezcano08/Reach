@@ -111,6 +111,7 @@ header li, a{
 #dir p{
     margin-top: 55%;
     margin-right: 60%;
+    text-align: justify;
    
 }
 #tel h1{
@@ -216,6 +217,8 @@ header li, a{
     margin-left: 50%;
     margin-top: 58%;
     position: absolute;
+    width:600px;
+    height:450px;
 }
 .form p{
     position: absolute;
@@ -223,4 +226,106 @@ header li, a{
     margin-left: 25%;
     margin-right: 20%;
     margin-bottom: 3%;
+    text-align: justify;
 }
+/*-------------------RESPONSIVE - LAPTOP 1024px-----------------------*/
+@media (max-width:1024px){
+    header{
+        margin-left: 64%;
+    }
+    .p1 h1{
+        font-size: 24px;
+    }
+    #this{
+        margin-top: 27%;
+    }
+    #this1{
+        margin-top: 30%;
+    }
+    #this2{
+        margin-top: 40%;
+    }
+    .p1 h2{
+        font-size: 20px;
+        margin-top: 35%;
+    }
+    #cont{
+        width: 500px;
+        height: 400px;
+        margin-left: 50%;
+        margin-top: 14%;
+    }
+    #dir h1{
+        margin-top: 54%;
+    }
+    #dir p{
+        margin-top: 60%;
+       
+    }
+    #tel h1{
+        margin-top: 69%;
+    }
+    #tel #tel{
+        margin-top: 76%;
+        margin-left: 8%;
+       
+    }
+    .fa-phone-alt{
+        margin-top: 76.2%;
+    }
+    #tel #wha{
+        margin-top: 79.2%;
+        margin-left: 8%;
+    }
+    .fa-whatsapp{
+        margin-top: 79.2%;
+    }
+    #cor h1{
+        margin-top: 85%;
+    }
+    #cor p{
+        margin-top: 91%;
+        margin-left: 8.5%;
+    }
+    .fa-envelope{
+        margin-top: 91%;
+       
+    }
+    #red h1{
+        margin-top: 97%;
+    }
+    #face{
+        margin-top: 103%;
+        margin-left: 8%;
+    }
+    .fa-facebook-f{
+        margin-top: 103%;
+    }
+    #insta{
+        margin-top: 107%;
+        margin-left: 8%;
+    }
+    .fa-instagram{
+        margin-top: 107%;
+    }
+    #twt{
+        margin-top: 111%;
+        margin-left: 8%;
+    }
+    .fa-twitter{
+        margin-top: 111%;
+    }
+    .map{
+    width:450px;
+    height:300px;
+    margin-top: 68%;
+    }
+    .form h1{
+        margin-top: 122%;
+        margin-left: 36%;
+    }
+    .form p{
+        margin-top: 128%;
+    }
+}
+/*-------------------RESPONSIVE - TABLET 768px-----------------------*/
