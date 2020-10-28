@@ -310,7 +310,7 @@ footer a:hover{
 }
 
 /*-------------------RESPONSIVE - TABLET 768px-----------------------*/
-@media (max-width:1024px){
+@media (max-width:768px){
     header{
         margin-left: 50%;
     }
