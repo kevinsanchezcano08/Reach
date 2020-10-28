@@ -29,7 +29,7 @@
     <img id="cont" src="contact.png"> 
 </section>
 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15505.556334583387!2d-89.15702927048338!3d13.694869064294142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633715e07a575b%3A0xaaae1adf8343e4b3!2sPlaza%20Mundo!5e0!3m2!1sen!2ssv!4v1603734010375!5m2!1sen!2ssv" 
-width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 <section class="Info">
     <div id="dir">
         <h1>Dirección:</h1>
@@ -38,7 +38,7 @@ width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" ar
     <div id="tel">
         <h1>Números de Teléfono:</h1>
         <i class="fas fa-phone-alt"></i><p id="tel">(+503) 5689-0976</p>
-        <i class="fab fa-whatsapp"></i><p id="wha">(+503) 7765-7890</p>
+        <i class="fab fa-whatsapp" id="W"></i><p id="wha">(+503) 7765-7890</p>
     </div>
     <div id="cor">
         <h1>Correo Electrónico:</h1>
@@ -47,8 +47,8 @@ width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" ar
     <div id="red">
         <h1>Redes Sociales:</h1>
         <i class="fab fa-facebook-f"></i><p id="face">Reach El Salvador</p>
-        <i class="fab fa-instagram"></i><p id="insta">Reach_SV</p>
-        <i class="fab fa-twitter"></i><p id="twt">@Reach_SV</p>
+        <i class="fab fa-instagram" id="I"></i><p id="insta">Reach_SV</p>
+        <i class="fab fa-twitter" id="T"></i><p id="twt">@Reach_SV</p>
     </div>
 </section>
 <section class="form">
@@ -56,7 +56,24 @@ width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" ar
     <p>Mediante este formulario podrás hacernos saber todas tus consultas sobre nuestros servicios o de otro tipo  y nos pondremos en contacto contigo
         lo más pronto posible.
     </p>
-    <p></p>
+    <form>
+        <input placeholder="Nombre" type="text" id="name"  required>
+        <input placeholder="Teléfono o Celular" minlength="8" maxlength="9" type="cel" id="cel"  required>
+        <input placeholder="Correo Electrónico" type="email" id="email" required>
+        <input placeholder="Asunto" type="text" id="asunto"  required>
+        <textarea placeholder="Escribe aquí..." id="msg"  required></textarea>
+        <input type="submit" value="Enviar Mensaje" id="btn">
+    </form>
 </section>
+<footer>
+    <p>Copyright © 2020 Todos los Derechos Reservados - Reach Company </p>
+    <div class="redes">
+        <a><i class="fa fa-facebook"></i></a>
+        <a><i class="fa fa-instagram" id="instagram"></i></a>
+        <a><i class="fa fa-twitter" id="twitter"></i></a>
+        <a><i class="fa fa-whatsapp" id="whatsapp"></i></a>
+        <a href="#logo"><i class="fa fa-arrow-up"></i></a>
+    </div>
+</footer>
 </body>
 </html>
